@@ -1,0 +1,40 @@
+ASP .NET CORE.- Fast and Open Source.
+* Cross Platform
+* Build in Dependecy Injection
+* Easy updates
+* Cloud Frendly
+* High Performance.
+
+Structure:
+* Program.cs: Main methods is commond in console app, It starts as a Console app
+
+Dependency Injection: Interface and class are mandatory --> Dependency Injection Container, dependecy Class creates just de interface.
+
+
+Startup.cs: 
+* ConfigureServices.- We use it as Container, it will be used in order to add our services.
+* Configure.- IWebHostEnvironment Is used just to check if it is used as Develpment.
+* NET CORE PipeLine.- AUTH, MVC, STATIC FILES. MIDDLEWARES.
+
+Routing: https://localhost:55555/{controller}/{action}/{id}
+
+MVC: 
+* Model.- Represents de shape of data, business releated data. it can Represent a Database Table.
+* View.- User interface HTML, CSS, RAZOR.
+* Controller.- Handles the user request and acts as an interface between Model and View. When Returns 
+View, it return the view that is in Views with the same path and name (Folder = Same Name, Action = view.cshtml).
+
+Migrations: We can use Migration of Entity Framework in order to generate our tables from our models.
+https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/migrations/
+
+Credentials Azure APP.-
+user: adminuser
+password: admin123456*
+
+
+
+
+
+
+
+
